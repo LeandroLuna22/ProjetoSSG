@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil do Aluno</title>
+  <script src="perfil.js" defer></script>
+</head>
+<body>
+  <h2>Perfil do Aluno</h2>
+
+  <ul id="perfil-list"></ul>
+
+  <form action="/perfil" method="POST">
+    <label for="motora">Motora:</label>
+    <input type="number" id="motora" name="motora" required>
+    
+    <label for="atencao">Atenção:</label>
+    <input type="number" id="atencao" name="atencao" required>
+    
+    <label for="fala">Fala:</label>
+    <input type="number" id="fala" name="fala" required>
+    
+    <label for="interacao">Interação:</label>
+    <input type="number" id="interacao" name="interacao" required>
+
+    <button type="submit">Enviar</button>
+
+    <img src="/imagens/perfil.png" alt="perfil" width="800" height="700">
+
+    <button onclick="window.location.href='/feedback.html'">Abrir Feedback</button>
+
+</form>
+
+</body>
+</html>
