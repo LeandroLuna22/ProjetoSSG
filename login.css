@@ -4,10 +4,9 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-}
 
 body {
-  background-image: url(https://i.imgur.com/YEzd8pl.jpeg);
+  background-image: url(https://i.imgur.com/CTQl1bE.jpeg[/img]);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -16,7 +15,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: flex;
   margin: 100px;
 }
 
@@ -69,10 +68,10 @@ h1 {
 }
 
 .label-float input:focus + label,
-.label-float input:valid + label {
+.label-float input:valid + label{
   font-size: 13px;
   margin-top: 0;
-  color: #272262;
+  color: #272262
 }
 
 button {
@@ -99,33 +98,33 @@ button:hover {
   justify-content: center;
 }
 
-hr {
+hr{
   margin-top: 10%;
   margin-bottom: 10%;
   width: 60%;
 }
 
-p {
+p{
   color: #272262;
   font-size: 14pt;
   text-align: center;
 }
 
-a {
+a{
   color: #120;
   font-weight: bold;
   text-decoration: none;
   transition: all 0.3s ease-out;
 }
 
-a:hover {
+a:hover{
   color: #272262;
 }
 
-.fa-eye {
+.fa-eye{
   position: absolute;
   top: 18px;
   right: -5px;
   cursor: pointer;
-  color: #272262;
+  color: #272262
 }
