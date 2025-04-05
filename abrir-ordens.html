@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Abrir Ordem de Serviço</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <img src="img/logo_ssg.png" alt="Logo SSG" width="80" height="40" id="logossg">
+    <h2>Abrir Ordem de Serviço</h2>
+    <input type="number" id="nota_id" placeholder="ID da Nota">
+    <input type="text" id="responsavel" placeholder="Responsável">
+    <textarea id="descricao" placeholder="Descrição"></textarea>
+    <select id="status">
+      <option value="ABERTA">ABERTA</option>
+      <option value="EM ANDAMENTO">EM ANDAMENTO</option>
+      <option value="CONCLUÍDA">CONCLUÍDA</option>
+    </select>
+    <button onclick="abrirOrdem()">Abrir Ordem</button>
+    <button id="botao-voltar" onclick="window.location.href = 'principal.html'">Voltar</button>
+  </div>
+  <script src="js/abrir-ordens.js"></script>
+</body>
+</html>

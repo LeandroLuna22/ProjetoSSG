@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página Principal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <img src="img/logo_ssg.png" alt="Logo SSG" width="80" height="40" id="logossg">
+    <div id="login-form">
+      <h2 id="nome-usuario">Olá, Usuário</h2>
+      <div id="menu">
+        <button onclick="window.location.href = 'notas.html'">Criar Nota</button>
+        <button onclick="window.location.href = 'exibir-notas.html'">Exibir Notas</button>
+        <button onclick="window.location.href = 'abrir-ordens.html'">Abrir Ordens</button>
+        <button onclick="window.location.href = 'exibir-ordens.html'">Exibir Ordens</button>
+        <div id="menu-admin" style="display: none;">
+          
+	<button id="botao-cadastrar" onclick="window.location.href = 'cadastro-usuario.html'">Cadastrar Usuário</button>
+        </div>
+        <button id="botao-sair" onclick="deslogar()">Sair</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/principal.js"></script>
+</body>
+</html>

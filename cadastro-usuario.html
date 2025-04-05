@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastro de Usuário</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <img src="img/logo_ssg.png" alt="Logo SSG" width="80" height="40" id="logossg">
+    <h2>Cadastro de Usuário</h2>
+    <input type="text" id="identificador" placeholder="Identificador">
+    <input type="password" id="senha" placeholder="Senha">
+    <select id="tipo">
+      <option value="usuario">Usuário</option>
+      <option value="administrador">Administrador</option>
+    </select>
+    <button id="botao-cadastrar" onclick="cadastrarUsuario()">Cadastrar</button>
+    <button id="botao-voltar" onclick="window.location.href = 'principal.html'">Voltar</button>
+  </div>
+  <script src="js/cadastro-usuario.js"></script>
+</body>
+</html>

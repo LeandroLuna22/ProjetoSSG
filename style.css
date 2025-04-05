@@ -1,0 +1,219 @@
+/* Fonte e plano de fundo */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+#descricao {
+  display: block;
+  width: 100%;
+  max-width: 360px; /* mesma largura dos botões */
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical; /* permite redimensionar verticalmente */
+  font-family: inherit;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.nota-item {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nota-item:hover {
+  background-color: #f1f1f1;
+}
+
+.nota-titulo {
+  font-weight: bold;
+  color: #0a6ed1;
+}
+
+.nota-descricao {
+  margin-top: 10px;
+  display: none;
+  color: #444;
+}
+
+.notas-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nota-item {
+  border-left: 5px solid #0a6ed1;
+  background-color: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  transition: background-color 0.2s;
+}
+
+.nota-item:hover {
+  background-color: #f0f0f0;
+}
+
+.nota-item h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  color: #0a6ed1;
+}
+
+.nota-item p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+
+
+/* Container principal com moldura */
+#app {
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto 10px auto; /* top 40px, bottom 10px */
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Título */
+h2 {
+  color: #0a6ed1;
+  margin-bottom: 20px;
+}
+
+/* Inputs de login */
+#app input {
+  display: block;
+  margin: 12px auto;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Botão de login */
+#app button {
+  display: block;
+  width: 90%;
+  margin: 20px auto 0;
+  padding: 12px;
+  background-color: #b0cdeb;
+  color: rgb(16, 0, 73);
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#app button:hover {
+  background-color: #1485ff;
+}
+
+
+#menu button {
+  background-color: #bfcfe4;
+  color: #070031;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+#menu button:hover {
+  background-color: #e0e0e0;
+  border-color: #085cb3; /* tom mais forte no hover */
+}
+
+
+button#botao-cadastrar {
+  background-color: #8deba3; /* verde bonito */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#botao-cadastrar:hover {
+  background-color: #00ff40; /* verde mais escuro no hover */
+}
+
+button#botao-voltar {
+  background-color: #bec1c4; /* cinza médio */
+  color: rgb(27, 27, 27);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#botao-voltar:hover {
+  background-color: #686868; /* cinza mais escuro no hover */
+}
+
+
+button#botao-sair {
+  background-color: #d4b7b7; /* vermelho padrão Bootstrap */
+  border: none;
+  color: rgb(105, 0, 0);
+}
+
+button#botao-sair:hover {
+  background-color: #ff3029; /* vermelho mais escuro no hover */
+}
+
+.lista-estilizada {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item-lista {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f0f4f8;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.item-cabecalho {
+  padding: 15px;
+  background-color: #e8edf3;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.item-detalhes {
+  display: none;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.item-detalhes.visivel {
+  display: block;
+}
+
+
